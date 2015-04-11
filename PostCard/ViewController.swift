@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     // this function is called when send mail button is pressed
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-        
+        //test commit
         messageLabel.hidden = false
         messageLabel.text = enterNameTextField.text
         messageLabel.textColor = UIColor.redColor()
